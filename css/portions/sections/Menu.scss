@@ -1,0 +1,42 @@
+.menu{
+  
+    .navbar-brand{
+        img{
+            max-width: 150px;
+        }
+    }
+    a{  color: white;
+        &:hover{
+            color: #ff0000!important;
+        }
+    }
+    .navbar-collapse {
+           flex-grow: 0;
+           text-align: center;
+           justify-content: center;
+            .navbar-nav {
+                .nav-link {
+                    margin-right: 2rem;
+                  
+                   }
+            }
+    }
+    .socials{
+        a{
+            margin: 0 20px;
+          
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    .menu{
+        .navbar-collapse{
+            .navbar-nav {
+                .nav-link {
+                    margin-right: inherit;
+                  
+                   }
+            }
+        }
+    }
+}

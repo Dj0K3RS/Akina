@@ -1,0 +1,125 @@
+.about{
+   padding-bottom: 100px;
+    .bloc-1{
+  background-color: #101010;
+       
+    background-repeat: no-repeat;
+    background-size: contain;
+    border:2px solid white;
+  
+    border-bottom: none;
+
+    }
+
+    .bloc-2{
+        background-color: #101010;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        border:2px solid white;
+  
+        border-top: none;
+    }
+
+    .img-about{
+       
+        text-align: inherit;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        height: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        padding: 0 0 0 10px;
+        img{
+           
+            border-radius: 20px;
+            
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding:0;
+      }
+      
+      li {
+        display: grid;
+        grid-template-columns: 30px auto;
+     
+        align-items: center;
+      }
+      
+      li::before {
+        content: ">";
+        font-size: 18px;
+        color: #dc3545;
+      }
+   
+   
+    .text{
+        margin-left: 5%;
+        text-align: inherit;
+        display: flex;
+        flex-wrap: wrap;
+ 
+    align-items: center;
+    align-content: center;
+    padding: 0 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about{
+        .row{
+            margin: 0;
+        }
+        .img-about{
+            margin: 0;
+        }
+        ul{
+            li{
+                text-align: left;
+            }
+        }
+    .content{
+       
+        .title{  width: 100%;
+            h2{
+              
+            }
+        }
+        img{
+       
+            margin: auto;
+        }
+        .text{
+           
+            margin: inherit;
+            h3{
+                text-align: center!important;
+                width: 100%;
+                margin-top: 50px ;
+            }
+            a{
+                width: 100%;
+            }
+           
+            
+        }
+    }
+}
+}
+
+@media screen and (max-width: 450px) {
+    .about{
+        ul{
+            padding: 0;
+        }
+    }
+}

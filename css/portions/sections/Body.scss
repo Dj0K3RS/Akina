@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+    button{
+        margin: 20px;
+    }
+}
+
+.roadmap .roadmap-content{
+    text-align: center;
+}
+
+@media screen and (max-width: 490px) {
+    .about{
+        h3{
+            margin: 20px 0 0 0;
+        }
+    } 
+}
+
+#div-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333536;
+    padding: 5px;
+    font-family: Gilroy-Medium,sans-serif;
+    text-align: center;
+    z-index: 99;
+}
